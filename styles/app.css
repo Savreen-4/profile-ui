@@ -1,0 +1,100 @@
+.heading2Xl {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+  
+  .headingXl {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+  
+  .headingLg {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+  }
+  
+  .headingMd {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .borderCircle {
+    border-radius: 9999px;
+  }
+  
+  .colorInherit {
+    color: inherit;
+  }
+  
+  .padding1px {
+    padding-top: 1px;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listItem {
+    margin: 0 0 1.25rem;
+  }
+  
+  .lightText {
+    color: #666;
+  }
+  .submitButton{
+    color:white;
+  }
+
+  .Loader {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100% !important;
+    text-decoration: underline;
+    position: fixed;
+    z-index: 99999;
+    background: #000000;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .download-button {
+    position: relative;
+    width: 150px;
+    border-radius: 25px;
+    border: 0;
+    padding: 10px 40px;
+    font-family: 'Lobster';
+    font-size: 21px;
+    box-sizing: content-box;
+    cursor: pointer;
+    overflow: hidden;
+    transition: width .9s cubic-bezier(0.4, 0.0, 0.2, 1);
+    box-shadow: 0px 5px 10px rgba(33, 33, 33, .25), inset 0 5px 10px rgba(33, 33, 33, .25);
+}
+
+
+.profile {
+  margin-top: 2.2em;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  padding-left : 260;
+}
